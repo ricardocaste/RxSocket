@@ -14,19 +14,33 @@
  * limitations under the License.
  */
 
-package moe.codeest.rxsocketclient
+package com.ricardocaste.rxsocket
 
-import moe.codeest.rxsocketclient.meta.SocketConfig
+import io.reactivex.functions.Consumer
+import moe.codeest.rxsocket.meta.DataWrapper
+import moe.codeest.rxsocket.meta.SocketState
+
 
 /**
  * @author: Est <codeest.dev@gmail.com>
- * @date: 2017/7/8
+ * @date: 2017/7/9
  * @description:
  */
 
-class RxSocketClient {
+abstract class SocketSubscriber : Consumer<DataWrapper> {
 
-    companion object {
-        @JvmStatic fun create(config: SocketConfig) : SocketClient = SocketClient(config)
+    override fun accept(t: DataWrapper) {
+        when (t.state) {
+            SocketState.CONNECTING -> onResponse(t.data)
+            SocketState.OPEN -> onConnected()
+            SocketState.CLOSE -> onDisconnected()
+        }
+
     }
+
+    abstract fun onConnected()
+
+    abstract fun onDisconnected()
+
+    abstract fun onResponse(data: ByteArray)
 }

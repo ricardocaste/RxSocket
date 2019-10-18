@@ -15,12 +15,12 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import kotlin.text.Charsets;
-import moe.codeest.rxsocketclient.RxSocketClient;
-import moe.codeest.rxsocketclient.SocketClient;
-import moe.codeest.rxsocketclient.SocketSubscriber;
-import moe.codeest.rxsocketclient.meta.SocketConfig;
-import moe.codeest.rxsocketclient.meta.SocketOption;
-import moe.codeest.rxsocketclient.meta.ThreadStrategy;
+import com.ricardocaste.rxsocket.RxSocketClient;
+import moe.codeest.rxsocket.SocketClient;
+import moe.codeest.rxsocket.SocketSubscriber;
+import moe.codeest.rxsocket.meta.SocketConfig;
+import moe.codeest.rxsocket.meta.SocketOption;
+import moe.codeest.rxsocket.meta.ThreadStrategy;
 
 /**
  * @author: Est <codeest.dev@gmail.com>

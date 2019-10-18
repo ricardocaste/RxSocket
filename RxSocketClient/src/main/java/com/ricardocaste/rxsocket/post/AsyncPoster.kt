@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package moe.codeest.rxsocketclient.post
+package com.ricardocaste.rxsocket.post
 
-import moe.codeest.rxsocketclient.SocketClient
+import com.ricardocaste.rxsocket.SocketClient
 import java.util.concurrent.Executor
 
 

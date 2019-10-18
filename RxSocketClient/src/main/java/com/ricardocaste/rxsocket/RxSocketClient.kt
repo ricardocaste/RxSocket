@@ -14,25 +14,20 @@
  * limitations under the License.
  */
 
-package moe.codeest.rxsocketclient.meta
+package com.ricardocaste.rxsocket
+
+import moe.codeest.rxsocket.SocketClient
+import moe.codeest.rxsocket.meta.SocketConfig
 
 /**
  * @author: Est <codeest.dev@gmail.com>
  * @date: 2017/7/8
  * @description:
  */
-object SocketState {
 
-    const val OPEN = 0x00
+class RxSocketClient {
 
-    const val CONNECTING = 0x01
-
-    const val CLOSE = 0x02
-}
-
-object ThreadStrategy {
-
-    const val SYNC = 0x00
-
-    const val ASYNC = 0x01
+    companion object {
+        @JvmStatic fun create(config: SocketConfig) : SocketClient = SocketClient(config)
+    }
 }

@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package moe.codeest.rxsocketclient
+package com.ricardocaste.rxsocket
 
+import IPoster
+import com.ricardocaste.rxsocket.meta.DataWrapper
+import com.ricardocaste.rxsocket.meta.SocketConfig
+import com.ricardocaste.rxsocket.meta.SocketOption
+import com.ricardocaste.rxsocket.meta.ThreadStrategy
+import com.ricardocaste.rxsocket.post.AsyncPoster
 import io.reactivex.Observable
-import moe.codeest.rxsocketclient.meta.DataWrapper
-import moe.codeest.rxsocketclient.meta.SocketConfig
-import moe.codeest.rxsocketclient.meta.SocketOption
-import moe.codeest.rxsocketclient.meta.ThreadStrategy
-import moe.codeest.rxsocketclient.post.AsyncPoster
-import moe.codeest.rxsocketclient.post.IPoster
-import moe.codeest.rxsocketclient.post.SyncPoster
+import mcom.ricardocaste.rxsocket.post.SyncPoster
 import java.net.Socket
 import java.util.concurrent.Executor
 import java.util.concurrent.Executors

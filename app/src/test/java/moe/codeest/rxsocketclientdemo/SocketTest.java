@@ -17,7 +17,7 @@ import org.robolectric.shadows.ShadowToast;
 import java.net.URISyntaxException;
 import java.util.Arrays;
 
-import moe.codeest.rxsocketclient.SocketSubscriber;
+import moe.codeest.rxsocket.SocketSubscriber;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;

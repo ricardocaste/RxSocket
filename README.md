@@ -1,5 +1,4 @@
-# RxSocket
-Reactive Socket APIs for Android powered by RxJava2
+# RxSocketClient
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/codeestX/RxSocketClient/pulls) [![API](https://img.shields.io/badge/API-20%2B-brightgreen.svg)](https://android-arsenal.com/api?level=20) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)[![](https://jitpack.io/v/codeestX/RxSocketClient.svg)](https://jitpack.io/#codeestX/RxSocketClient)
 

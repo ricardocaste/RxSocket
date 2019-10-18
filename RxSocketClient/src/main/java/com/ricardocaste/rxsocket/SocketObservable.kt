@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package moe.codeest.rxsocketclient
+package com.ricardocaste.rxsocket
 
 import io.reactivex.Observable
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
-import moe.codeest.rxsocketclient.meta.DataWrapper
-import moe.codeest.rxsocketclient.meta.SocketConfig
+import moe.codeest.rxsocket.meta.DataWrapper
+import moe.codeest.rxsocket.meta.SocketConfig
 import java.net.InetSocketAddress
 import java.net.Socket
-import moe.codeest.rxsocketclient.meta.SocketState
+import moe.codeest.rxsocket.meta.SocketState
 import java.io.DataInputStream
 import java.io.IOException
 

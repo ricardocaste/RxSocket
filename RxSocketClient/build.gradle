@@ -4,18 +4,18 @@ apply plugin: 'kotlin'
 // JitPack Maven
 apply plugin: 'com.github.dcendents.android-maven'
 // Group
-group='com.github.codeestX'
+group='com.github.ricardocaste'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
-    compile "io.reactivex.rxjava2:rxjava:2.1.1"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.13'
 }
 
 sourceCompatibility = "1.7"
 targetCompatibility = "1.7"
 buildscript {
-    ext.kotlin_version = '1.1.3-2'
+    ext.kotlin_version = '1.3.50'
     repositories {
         mavenCentral()
     }

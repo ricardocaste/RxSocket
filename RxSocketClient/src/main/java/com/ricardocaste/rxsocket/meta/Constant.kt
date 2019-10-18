@@ -14,33 +14,25 @@
  * limitations under the License.
  */
 
-package moe.codeest.rxsocketclient
-
-import io.reactivex.functions.Consumer
-import moe.codeest.rxsocketclient.meta.DataWrapper
-import moe.codeest.rxsocketclient.meta.SocketState
-
+package com.ricardocaste.rxsocket.meta
 
 /**
  * @author: Est <codeest.dev@gmail.com>
- * @date: 2017/7/9
+ * @date: 2017/7/8
  * @description:
  */
+object SocketState {
 
-abstract class SocketSubscriber : Consumer<DataWrapper> {
+    const val OPEN = 0x00
 
-    override fun accept(t: DataWrapper) {
-        when (t.state) {
-            SocketState.CONNECTING -> onResponse(t.data)
-            SocketState.OPEN -> onConnected()
-            SocketState.CLOSE -> onDisconnected()
-        }
+    const val CONNECTING = 0x01
 
-    }
+    const val CLOSE = 0x02
+}
 
-    abstract fun onConnected()
+object ThreadStrategy {
 
-    abstract fun onDisconnected()
+    const val SYNC = 0x00
 
-    abstract fun onResponse(data: ByteArray)
+    const val ASYNC = 0x01
 }

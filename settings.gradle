@@ -1,1 +1,1 @@
-include ':app', ':RxSocket'
+include ':app', ':RxSocketClient'

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package moe.codeest.rxsocketclient.meta
+package com.ricardocaste.rxsocket.meta
 
 import java.nio.charset.Charset
 

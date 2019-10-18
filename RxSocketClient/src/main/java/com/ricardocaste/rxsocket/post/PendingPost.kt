@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package moe.codeest.rxsocketclient.post
+package com.ricardocaste.rxsocket.post
 
 /**
  * @author: Est <codeest.dev@gmail.com>
