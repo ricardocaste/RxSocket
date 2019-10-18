@@ -1,8 +1,10 @@
-package moe.codeest.rxsocketdemo;
+package com.ricardocaste.rxsocketdemo;
 
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.ricardocaste.rxsocket.SocketSubscriber;
 
 import org.jetbrains.annotations.NotNull;
 import org.junit.Before;
@@ -17,8 +19,6 @@ import org.robolectric.shadows.ShadowToast;
 import java.net.URISyntaxException;
 import java.util.Arrays;
 
-import moe.codeest.rxsocket.SocketSubscriber;
-
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertNotNull;
 
@@ -29,7 +29,7 @@ import static junit.framework.Assert.assertNotNull;
  */
 
 @RunWith(RobolectricTestRunner.class)
-@Config(constants = BuildConfig.class)
+//@Config(constants = BuildConfig.class)
 public class SocketTest {
 
     private JavaActivity activity;
@@ -49,7 +49,7 @@ public class SocketTest {
     @Test
     public void testActivity() {
         assertNotNull(activity);
-        assertEquals("RxSocketClientDemo", activity.getTitle());
+        assertEquals("RxSocketDemo", activity.getTitle());
     }
 
     @Test

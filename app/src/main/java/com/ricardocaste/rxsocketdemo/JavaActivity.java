@@ -1,4 +1,4 @@
-package moe.codeest.rxsocketdemo;
+package com.ricardocaste.rxsocketdemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

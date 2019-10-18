@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("moe.codeest.rxsocketdemo", appContext.packageName)
+        assertEquals("com.codeest.rxsocketdemo", appContext.packageName)
     }
 }

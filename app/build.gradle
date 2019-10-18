@@ -8,7 +8,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "25.0.3"
     defaultConfig {
-        applicationId "moe.codeest.rxsocketdemo"
+        applicationId "com.codeest.rxsocketdemo"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
