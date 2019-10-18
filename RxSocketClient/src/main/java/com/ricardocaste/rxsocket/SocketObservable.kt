@@ -16,14 +16,14 @@
 
 package com.ricardocaste.rxsocket
 
+import com.ricardocaste.rxsocket.meta.DataWrapper
+import com.ricardocaste.rxsocket.meta.SocketConfig
+import com.ricardocaste.rxsocket.meta.SocketState
 import io.reactivex.Observable
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
-import moe.codeest.rxsocket.meta.DataWrapper
-import moe.codeest.rxsocket.meta.SocketConfig
 import java.net.InetSocketAddress
 import java.net.Socket
-import moe.codeest.rxsocket.meta.SocketState
 import java.io.DataInputStream
 import java.io.IOException
 

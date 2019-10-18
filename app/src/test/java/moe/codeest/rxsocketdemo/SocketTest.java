@@ -1,4 +1,4 @@
-package moe.codeest.rxsocketclientdemo;
+package moe.codeest.rxsocketdemo;
 
 import android.widget.Button;
 import android.widget.TextView;

@@ -16,8 +16,8 @@
 
 package com.ricardocaste.rxsocket
 
-import moe.codeest.rxsocket.SocketClient
-import moe.codeest.rxsocket.meta.SocketConfig
+import com.ricardocaste.rxsocket.meta.SocketConfig
+
 
 /**
  * @author: Est <codeest.dev@gmail.com>

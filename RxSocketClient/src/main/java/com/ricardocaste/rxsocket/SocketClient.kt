@@ -16,14 +16,14 @@
 
 package com.ricardocaste.rxsocket
 
-import IPoster
 import com.ricardocaste.rxsocket.meta.DataWrapper
 import com.ricardocaste.rxsocket.meta.SocketConfig
 import com.ricardocaste.rxsocket.meta.SocketOption
 import com.ricardocaste.rxsocket.meta.ThreadStrategy
 import com.ricardocaste.rxsocket.post.AsyncPoster
+import com.ricardocaste.rxsocket.post.IPoster
 import io.reactivex.Observable
-import mcom.ricardocaste.rxsocket.post.SyncPoster
+import com.ricardocaste.rxsocket.post.SyncPoster
 import java.net.Socket
 import java.util.concurrent.Executor
 import java.util.concurrent.Executors

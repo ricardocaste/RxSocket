@@ -1,4 +1,4 @@
-package moe.codeest.rxsocketclientdemo
+package moe.codeest.rxsocketdemo
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

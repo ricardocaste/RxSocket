@@ -1,4 +1,4 @@
-package moe.codeest.rxsocketclientdemo;
+package moe.codeest.rxsocketdemo;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -16,11 +16,11 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import kotlin.text.Charsets;
 import com.ricardocaste.rxsocket.RxSocketClient;
-import moe.codeest.rxsocket.SocketClient;
-import moe.codeest.rxsocket.SocketSubscriber;
-import moe.codeest.rxsocket.meta.SocketConfig;
-import moe.codeest.rxsocket.meta.SocketOption;
-import moe.codeest.rxsocket.meta.ThreadStrategy;
+import com.ricardocaste.rxsocket.SocketClient;
+import com.ricardocaste.rxsocket.SocketSubscriber;
+import com.ricardocaste.rxsocket.meta.SocketConfig;
+import com.ricardocaste.rxsocket.meta.SocketOption;
+import com.ricardocaste.rxsocket.meta.ThreadStrategy;
 
 /**
  * @author: Est <codeest.dev@gmail.com>

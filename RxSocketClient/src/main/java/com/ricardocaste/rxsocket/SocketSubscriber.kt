@@ -16,9 +16,9 @@
 
 package com.ricardocaste.rxsocket
 
+import com.ricardocaste.rxsocket.meta.DataWrapper
+import com.ricardocaste.rxsocket.meta.SocketState
 import io.reactivex.functions.Consumer
-import moe.codeest.rxsocket.meta.DataWrapper
-import moe.codeest.rxsocket.meta.SocketState
 
 
 /**
